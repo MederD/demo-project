@@ -17,4 +17,4 @@ jobs:
       uses: actions-hub/docker/login@master
       env:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-        DOCKER_PASSWORD: ${{ secrets.DOCKER_ACCESS_TOKEN }}
+        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
